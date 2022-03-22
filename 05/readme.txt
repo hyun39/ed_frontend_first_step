@@ -1,3 +1,5 @@
+------------------------------------------------------------
+
 1. 채널만들기
 
 - method : post
@@ -64,3 +66,30 @@
 
 - 응답 url :
 /reset
+
+------------------------------------------------------------
+
+
+Firebase 기능
+
+- 실시간 database
+- triger ( Firebase Fuction )
+- Firebase Authentification
+
+npm i -g firebase-tools@3.18.0
+firbase login
+
+
+# 초기화
+
+firebase init hosting
+
+firebase init functions
+
+
+# Restful 관련 api 설치하기
+
+npm i express cores
+
+
+firebase serve --only functions
